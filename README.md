@@ -1,3 +1,4 @@
-ZF2 tutorial application
+This code is based on the Tutorial which can be found here:
+http://www.jasongrimes.org/2012/01/using-doctrine-2-in-zend-framework-2/#toc-install-doctrine-modules
 
-See [http://akrabat.com/zend-framework-2-tutorial/](http://akrabat.com/zend-framework-2-tutorial/)
+It is not fully working yet, tho
