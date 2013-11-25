@@ -4,7 +4,8 @@ namespace Album\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
-use Album\Model\Album;
+//use Album\Model\Album;
+use Album\Entity\Album;
 use Album\Form\AlbumForm;
 use Doctrine\ORM\EntityManager;
 
@@ -48,8 +49,8 @@ class AlbumController extends AbstractActionController
             $form->setInputFilter($album->getInputFilter());
             $form->setData($request->getPost());
             if ($form->isValid()) {
-                //$album->populate($form->getData());
-                $album->exchangeArray($form->getData());
+                $album->populate($form->getData());
+                //$album->exchangeArray($form->getData());
                 $this->getEntityManager()->persist($album);
                 $this->getEntityManager()->flush();
 
