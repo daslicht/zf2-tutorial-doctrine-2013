@@ -113,15 +113,16 @@ class AlbumController extends AbstractActionController
             }
 
             // Redirect to list of albums
-            return $this->redirect()->toRoute('default', array(
-                'controller' => 'album',
-                'action'     => 'index',
-            ));
+//            return $this->redirect()->toRoute('default', array(
+//                'controller' => 'album',
+//                'action'     => 'index',
+//            ));
+            return $this->redirect()->toRoute('album');
         }
 
         return array(
             'id' => $id,
-            'album' => $this->getEntityManager()->find('Album\Entity\Album', $id)->getArrayCopy()
+            'album' => $this->getEntityManager()->find('Album\Entity\Album', $id)//->getArrayCopy()
         );
     }
 }
