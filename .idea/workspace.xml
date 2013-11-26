@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="584710d0-a7ba-4b7f-95b8-12c9f7bcaa5f" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Album/src/Album/Controller/EntityUsingController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Album/src/Album/Entity/Album.php" afterPath="$PROJECT_DIR$/module/Album/src/Album/Entity/Album.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php" afterPath="$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zf2-tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,20 +34,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="39" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AlbumController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.09355509" vertical-offset="0" max-vertical-offset="2280">
-              <folding />
+            <state line="70" column="38" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.5914761" vertical-offset="1" max-vertical-offset="1800">
+              <folding>
+                <element signature="e#88#118#0" expanded="true" />
+                <element signature="e#285#294#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,7 +49,7 @@
       <file leaf-file-name="EntityUsingController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Controller/EntityUsingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="125" selection-end="146" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="735">
+            <state line="31" column="6" selection-start="645" selection-end="645" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="720">
               <folding>
                 <element signature="e#36#85#0" expanded="true" />
               </folding>
@@ -144,8 +135,8 @@
         <option value="$PROJECT_DIR$/config/autoload/local.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/module/Album/src/Album/Entity/Album.php" />
-        <option value="$PROJECT_DIR$/module/Album/src/Album/Controller/EntityUsingController.php" />
         <option value="$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php" />
+        <option value="$PROJECT_DIR$/module/Album/src/Album/Controller/EntityUsingController.php" />
       </list>
     </option>
   </component>
@@ -163,7 +154,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -478,13 +469,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="994" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Album/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="3" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="825">
@@ -541,7 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Controller/EntityUsingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="125" selection-end="146" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="735">
+        <state line="31" column="6" selection-start="645" selection-end="645" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="720">
           <folding>
             <element signature="e#36#85#0" expanded="true" />
           </folding>
@@ -550,8 +534,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.09355509" vertical-offset="0" max-vertical-offset="2280">
-          <folding />
+        <state line="70" column="38" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.5914761" vertical-offset="1" max-vertical-offset="1800">
+          <folding>
+            <element signature="e#88#118#0" expanded="true" />
+            <element signature="e#285#294#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
