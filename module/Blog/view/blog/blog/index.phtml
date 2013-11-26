@@ -1,4 +1,4 @@
-<?php 
+<?php
 $title = 'Blog Posts';
 $this->headTitle($title);
 ?>
@@ -11,22 +11,28 @@ $this->headTitle($title);
     </a>
 </p>
 
-<!--<table class="table">-->
-<!--    <tr>-->
-<!--        <th>Title</th>-->
-<!--        <th>Artist</th>-->
-<!--        <th>&nbsp;</th>-->
-<!--    </tr>-->
-<!--    --><?php //foreach($albums as $album) : ?>
-<!--        <tr>-->
-<!--            <td>--><?php //echo $this->escapeHtml($album->title);?><!--</td>-->
-<!--            <td>--><?php //echo $this->escapeHtml($album->artist);?><!--</td>-->
-<!--            <td>-->
-<!--                <a href="--><?php //echo $this->url('album',
-//                    array('action'=>'edit', 'id' => $album->id));?><!--">Edit</a>-->
-<!--                <a href="--><?php //echo $this->url('album',
-//                    array('action'=>'delete', 'id' => $album->id));?><!--">Delete</a>-->
-<!--            </td>-->
-<!--        </tr>-->
-<!--    --><?php //endforeach; ?>
-<!--</table>-->
+<table class="table">
+    <tr>
+        <th>Title</th>
+        <th>Tags</th>
+        <th>&nbsp;</th>
+    </tr>
+    <?php foreach($blogPosts as $p) : ?>
+        <tr>
+            <td><?php echo $this->escapeHtml($p->title);?></td>
+
+            <td><?php //echo $this->escapeHtml($album->artist);?></td>
+
+            <td>
+                <a href="<?php echo $this->url('blog',
+                    array('action'=>'update', 'id' => $p->id));?>">
+                    Update
+                </a>
+                <a href="<?php echo $this->url('blog',
+                    array('action'=>'delete', 'id' => $p->id));?>">
+                    Delete
+                </a>
+            </td>
+        </tr>
+    <?php endforeach; ?>
+</table>

@@ -19,9 +19,9 @@ class CreateBlogPostForm extends Form
         $blogPostFieldset = new BlogPostFieldset($objectManager);
         $blogPostFieldset->setUseAsBaseFieldset(true);
         $this->add($blogPostFieldset);
-        $this->add(new Element\Csrf('security'));
+        //$this->add(new Element\Csrf('security')); ?? correct like this? how to add it in the template
         $this->add(array(
-            'name' => 'send',
+            'name' => 'submit',
             'type'  => 'Submit',
             'attributes' => array(
                 'value' => 'Submit',

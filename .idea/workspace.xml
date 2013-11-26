@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584710d0-a7ba-4b7f-95b8-12c9f7bcaa5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Controller/BlogController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Entity/BlogPost.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Form/BlogPostFieldset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Form/CreateBlogPostForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Controller/EntityManagerController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/Module.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Entity/Tag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Form/TagFieldset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Form/UpdateBlogPostForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/create.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/daslicht.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/delete.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/config/module.config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/update.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Album/src/Album/Controller/EntityUsingController.php" afterPath="$PROJECT_DIR$/module/Album/src/Album/Controller/EntityManagerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php" afterPath="$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Album/src/Album/Form/AlbumForm.php" afterPath="$PROJECT_DIR$/module/Album/src/Album/Form/AlbumForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Album/Module.php" afterPath="$PROJECT_DIR$/module/Album/Module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.config.php" afterPath="$PROJECT_DIR$/config/application.config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/autoload/doctrine.local.php.daslicht" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Blog/Controller/BlogController.php" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Controller/BlogController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Blog/Form/CreateBlogPostForm.php" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Form/CreateBlogPostForm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/global.php" afterPath="$PROJECT_DIR$/config/autoload/global.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Album/view/album/album/index.phtml" afterPath="$PROJECT_DIR$/module/Album/view/album/album/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/create.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/create.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zf2-tutorial.iws" />
@@ -50,48 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/create.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="2" selection-start="342" selection-end="342" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Controller/BlogController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="38" selection-start="1111" selection-end="1111" vertical-scroll-proportion="-21.625" vertical-offset="111" max-vertical-offset="1110">
-              <folding>
-                <element signature="e#87#117#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1064" selection-end="1064" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="570">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Album.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Entity/Album.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="596" selection-end="645" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="2235">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BlogPostFieldset.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Form/BlogPostFieldset.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="720">
+            <state line="30" column="13" selection-start="972" selection-end="972" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="720">
               <folding>
                 <element signature="e#28#53#0" expanded="true" />
               </folding>
@@ -99,30 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogPost.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Entity/BlogPost.php">
+      <file leaf-file-name="AlbumController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="7" selection-start="511" selection-end="511" vertical-scroll-proportion="0.41538462" vertical-offset="0" max-vertical-offset="1485">
-              <folding>
-                <element signature="e#30#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tag.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Entity/Tag.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1155">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/add.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="4" column="51" selection-start="38" selection-end="87" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1575">
               <folding />
             </state>
           </provider>
@@ -131,7 +54,7 @@
       <file leaf-file-name="CreateBlogPostForm.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Form/CreateBlogPostForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="36" selection-start="688" selection-end="705" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="570">
+            <state line="21" column="103" selection-start="811" selection-end="811" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="570">
               <folding>
                 <element signature="e#28#74#0" expanded="true" />
               </folding>
@@ -139,12 +62,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TagFieldset.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Form/TagFieldset.php">
+      <file leaf-file-name="create.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/create.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="765">
+            <state line="18" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogPost.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Entity/BlogPost.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="7" selection-start="511" selection-end="511" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="1485">
               <folding>
-                <element signature="e#29#49#0" expanded="true" />
+                <element signature="e#30#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Album.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Entity/Album.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2235">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/edit.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlbumForm.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Form/AlbumForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Controller/BlogController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.015416238" vertical-offset="45" max-vertical-offset="1140">
+              <folding>
+                <element signature="e#35#84#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Form/CreateBlogPostForm.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Form/UpdateBlogPostForm.php" />
         <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" />
         <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml" />
         <option value="$PROJECT_DIR$/config/autoload/global.php" />
@@ -180,16 +157,18 @@
         <option value="$PROJECT_DIR$/module/Blog/src/Blog/Controller/EntityManagerController.php" />
         <option value="$PROJECT_DIR$/module/Blog/config/module.config.php" />
         <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/update.phtml" />
-        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/create.phtml" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Controller/BlogController.php" />
-        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" />
         <option value="$PROJECT_DIR$/module/Blog/src/Blog/Entity/BlogPost.php" />
+        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/create.phtml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Form/CreateBlogPostForm.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Controller/BlogController.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
+    <option name="x" value="7" />
     <option name="y" value="22" />
     <option name="width" value="1684" />
     <option name="height" value="1118" />
@@ -693,6 +672,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.File Status" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../performancegroup" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -754,15 +734,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="22" width="1684" height="1118" extended-state="0" />
-    <editor active="false" />
+    <frame x="7" y="22" width="1684" height="1118" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.544" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5430862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25335777" sideWeight="0.456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25335777" sideWeight="0.45691383" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -792,48 +772,43 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/delete.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="30" selection-start="1189" selection-end="1189" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="1635">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="997">
           <folding>
-            <element signature="e#88#118#0" expanded="true" />
+            <marker date="1385412283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385412283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385412283000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/config/module.config.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="999">
-          <folding />
+        <state line="38" column="0" selection-start="967" selection-end="967" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="660">
+          <folding>
+            <marker date="1385472228000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385472228000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385472228000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385472228000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385472228000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385472228000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385472228000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385472228000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/config/module.config.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Form/TagFieldset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="49" selection-start="395" selection-end="395" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="825">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Form/UpdateBlogPostForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="999">
-          <folding>
-            <element signature="e#28#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/update.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="336" selection-end="341" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Form/AlbumForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="999">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="997">
           <folding />
         </state>
       </provider>
@@ -845,75 +820,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Form/TagFieldset.php">
+    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/delete.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="999">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="997">
           <folding>
-            <element signature="e#29#49#0" expanded="true" />
+            <marker date="1385412283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385412283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1385412283000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/create.phtml">
+    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="342" selection-end="342" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="345">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="997">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Controller/BlogController.php">
+    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="38" selection-start="1111" selection-end="1111" vertical-scroll-proportion="-21.625" vertical-offset="111" max-vertical-offset="1110">
-          <folding>
-            <element signature="e#87#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1064" selection-end="1064" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="570">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="997">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Form/CreateBlogPostForm.php">
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Form/AlbumForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="688" selection-end="705" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="570">
-          <folding>
-            <element signature="e#28#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Form/BlogPostFieldset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="999">
-          <folding>
-            <element signature="e#28#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Entity/Tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Entity/Album.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="596" selection-end="645" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="2235">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="997">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Entity/BlogPost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="511" selection-end="511" vertical-scroll-proportion="0.41538462" vertical-offset="0" max-vertical-offset="1485">
+        <state line="27" column="7" selection-start="511" selection-end="511" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="1485">
           <folding>
             <element signature="e#30#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Form/BlogPostFieldset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="972" selection-end="972" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="720">
+          <folding>
+            <element signature="e#28#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Form/CreateBlogPostForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="103" selection-start="811" selection-end="811" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="570">
+          <folding>
+            <element signature="e#28#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/create.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Entity/Album.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="51" selection-start="38" selection-end="87" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.015416238" vertical-offset="45" max-vertical-offset="1140">
+          <folding>
+            <element signature="e#35#84#0" expanded="true" />
           </folding>
         </state>
       </provider>

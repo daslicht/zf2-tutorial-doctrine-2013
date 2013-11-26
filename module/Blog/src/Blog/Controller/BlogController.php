@@ -2,22 +2,23 @@
 
 namespace Blog\Controller;
 
-//use Zend\Mvc\Controller\AbstractActionController;
+use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
 use Blog\Entity\BlogPost;
 use Blog\Form\CreateBlogPostForm;
 use Doctrine\ORM\EntityManager;
 
-class BlogController extends EntityManagerController //AbstractActionController
+class BlogController extends AbstractActionController //EntityManagerController
 {
 
     public function indexAction()
     {
         return new ViewModel(array(
-
+            'blogPosts' => $this->getEntityManager()->getRepository('Blog\Entity\BlogPost')->findAll()
         ));
     }
+
 
     public function createAction()
     {
@@ -32,8 +33,9 @@ class BlogController extends EntityManagerController //AbstractActionController
         $form->bind($blogPost);
 
         if ($this->request->isPost()) {
-            $form->setData($this->request->getPost());
 
+            $form->setData($this->request->getPost());
+echo "Valid:". $form->isValid(); die;
             if ($form->isValid()) {
                 $objectManager->persist($blogPost);
                 $objectManager->flush();
