@@ -2,33 +2,51 @@
 
 namespace Album\Controller;
 
-use Zend\Mvc\Controller\AbstractActionController;
+//use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
-//use Album\Model\Album;
+
 use Album\Entity\Album;
 use Album\Form\AlbumForm;
 use Doctrine\ORM\EntityManager;
 
-class AlbumController extends AbstractActionController
+class AlbumController extends EntityUsingController //AbstractActionController
 {
 
-    /**
-     * @var Doctrine\ORM\EntityManager
-     */
-    protected $em;
+//    /**
+//     * @var EntityManager
+//     */
+//    protected $em;
+//
+//    /**
+//     * Sets the EntityManager
+//     *
+//     * @param EntityManager $em
+//     * @access protected
+//     * @return AlbumController
+//     */
+//    protected function setEntityManager(EntityManager $em)
+//    {
+//        $this->em = $em;
+//    }
+//
+//    /**
+//     * Returns the EntityManager
+//     *
+//     * Fetches the EntityManager from ServiceLocator if it has not been initiated
+//     * and then returns it
+//     *
+//     * @access protected
+//     * @return EntityManager
+//     */
+//    protected function getEntityManager()
+//    {
+//        if (null === $this->em) {
+//            $this->em = $this->getServiceLocator()->get('Doctrine\ORM\EntityManager');
+//        }
+//        return $this->em;
+//    }
 
-    public function setEntityManager(EntityManager $em)
-    {
-        $this->em = $em;
-    }
-
-    public function getEntityManager()
-    {
-        if (null === $this->em) {
-            $this->em = $this->getServiceLocator()->get('Doctrine\ORM\EntityManager');
-        }
-        return $this->em;
-    }
+    /*********************************************************/
 
     public function indexAction()
     {

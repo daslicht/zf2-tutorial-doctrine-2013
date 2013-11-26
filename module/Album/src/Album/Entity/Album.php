@@ -114,7 +114,7 @@ class Album implements InputFilterAwareInterface
                         'name'    => 'StringLength',
                         'options' => array(
                             'encoding' => 'UTF-8',
-                            'min'      => 1,
+                            'min'      => 10,
                             'max'      => 100,
                         ),
                     ),
