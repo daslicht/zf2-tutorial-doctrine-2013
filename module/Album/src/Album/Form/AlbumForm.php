@@ -5,6 +5,8 @@ use Zend\Form\Form;
 
 class AlbumForm extends Form
 {
+    //http://framework.zend.com/manual/2.2/en/modules/zend.form.quick-start.html
+    //https://github.com/doctrine/DoctrineModule/blob/master/docs/hydrator.md#a-complete-example-using-zendform
     public function __construct($name = null)
     {
         // we want to ignore the name passed

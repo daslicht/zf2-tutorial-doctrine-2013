@@ -1,10 +1,12 @@
 <?php
 return array(
     'modules' => array(
-        'Application',
+        'ZendDeveloperTools',
         'DoctrineModule',
         'DoctrineORMModule',
-        'Album'
+        'Application',
+        'Album',
+        'Blog'
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(

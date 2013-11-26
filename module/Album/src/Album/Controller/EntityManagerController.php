@@ -4,9 +4,13 @@ namespace Album\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Doctrine\ORM\EntityManager;
+use DoctrineModule\Stdlib\Hydrator\DoctrineObject as DoctrineHydrator;
 
-class EntityUsingController extends AbstractActionController
+class EntityManagerController extends AbstractActionController
 {
+    protected $hydrator;
+
+
     /**
      * @var EntityManager
      */
@@ -40,4 +44,10 @@ class EntityUsingController extends AbstractActionController
         }
         return $this->em;
     }
+
+
+    function __construct() {
+        //$this->hydrator = new DoctrineHydrator($yhis->getEntityManager());
+    }
+
 }

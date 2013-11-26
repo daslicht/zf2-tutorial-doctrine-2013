@@ -9,44 +9,8 @@ use Album\Entity\Album;
 use Album\Form\AlbumForm;
 use Doctrine\ORM\EntityManager;
 
-class AlbumController extends EntityUsingController //AbstractActionController
+class AlbumController extends EntityManagerController //AbstractActionController
 {
-
-//    /**
-//     * @var EntityManager
-//     */
-//    protected $em;
-//
-//    /**
-//     * Sets the EntityManager
-//     *
-//     * @param EntityManager $em
-//     * @access protected
-//     * @return AlbumController
-//     */
-//    protected function setEntityManager(EntityManager $em)
-//    {
-//        $this->em = $em;
-//    }
-//
-//    /**
-//     * Returns the EntityManager
-//     *
-//     * Fetches the EntityManager from ServiceLocator if it has not been initiated
-//     * and then returns it
-//     *
-//     * @access protected
-//     * @return EntityManager
-//     */
-//    protected function getEntityManager()
-//    {
-//        if (null === $this->em) {
-//            $this->em = $this->getServiceLocator()->get('Doctrine\ORM\EntityManager');
-//        }
-//        return $this->em;
-//    }
-
-    /*********************************************************/
 
     public function indexAction()
     {
@@ -59,24 +23,19 @@ class AlbumController extends EntityUsingController //AbstractActionController
     {
         $form = new AlbumForm();
         $form->get('submit')->setAttribute('label', 'Add');
-
         $request = $this->getRequest();
         if ($request->isPost()) {
             $album = new Album();
-
             $form->setInputFilter($album->getInputFilter());
             $form->setData($request->getPost());
             if ($form->isValid()) {
                 $album->populate($form->getData());
-                //$album->exchangeArray($form->getData());
                 $this->getEntityManager()->persist($album);
                 $this->getEntityManager()->flush();
-
                 // Redirect to list of albums
                 return $this->redirect()->toRoute('album');
             }
         }
-
         return array('form' => $form);
     }
 
@@ -87,12 +46,10 @@ class AlbumController extends EntityUsingController //AbstractActionController
             return $this->redirect()->toRoute('album', array('action'=>'add'));
         }
         $album = $this->getEntityManager()->find('Album\Entity\Album', $id);
-
         $form = new AlbumForm();
         $form->setBindOnValidate(false);
         $form->bind($album);
         $form->get('submit')->setAttribute('label', 'Edit');
-
         $request = $this->getRequest();
         if ($request->isPost()) {
             $form->setData($request->getPost());

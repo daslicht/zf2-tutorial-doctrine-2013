@@ -12,7 +12,7 @@
  */
 
 return array(
-    'db' => array(
+   /* 'db' => array(
         'driver' => 'Pdo',
         'dsn'            => 'mysql:dbname=zf2tutorial;hostname=localhost',
         'username'       => 'rob',
@@ -25,5 +25,5 @@ return array(
         'factories' => array(
             'Zend\Db\Adapter\Adapter' => 'Zend\Db\Adapter\AdapterServiceFactory',
         ),
-    ),
+    ),*/
 );

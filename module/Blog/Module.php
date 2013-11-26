@@ -1,8 +1,8 @@
 <?php
 
-namespace Album;
+namespace Blog;
 
-//use Album\Model\AlbumTable;
+//use Blog\Model\AlbumTable;
 
 class Module
 {
